@@ -1,0 +1,20 @@
+{"chatbot": [
+    {
+     "questions": ["hi", "how are you", "is anyone there?", "hello", "good day","hey"],
+     "responses": ["hello, thanks for visiting", "good to see you again", "hi there, how can i help?"]
+ 
+    },
+    {
+     "questions": ["bye", "see you later", "goodbye"],
+     "responses": ["see you later, thanks for visiting", "have a nice day", "bye! come back again soon."]
+    },
+    {"questions": ["thanks", "thank you", "thats helpful"],
+     "responses": ["happy to help!", "any time!", "my pleasure"]
+    },
+    {
+     "questions": ["are you open today?", "when do you open today?", "what are your hours today?"],
+     "responses": ["we're open every day from 9am-9pm", "our hours are 9am-9pm every day"]
+    }
+]
+}
+

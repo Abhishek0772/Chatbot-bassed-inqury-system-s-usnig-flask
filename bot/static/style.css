@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px 0%;
+    width: 40vw;
+    background-color: rgb(10, 10, 10);
+    
+    margin: auto;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: black 0px 33px 102px -40px;
+    border-left: black solid 4px;
+    border-right: black solid 4px;
+    border-top: black solid 4px;
+    border-bottom: black solid 4px;
+}
+
+
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    background-color: white;
+    border-left: black solid 4px;
+    border-right: black solid 4px;
+    
+    
+    
+}
+
+#userInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 60px;
+    background-color: rgb(7, 7, 7);
+    border-left: black solid 4px;
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
+    border-top: black solid 4px;
+    
+    border-radius: 0px 0px 25px 25px;
+
+}
+
+#textInput {
+    width: 80%;
+    margin: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    background-color: white;
+
+}
+#textInput,input :focus{
+    outline: 0px;
+    height: 32px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#buttonInput {
+    background-color: white;
+    color: black;
+    margin-left: 12px;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    
+}
+
+
+.userText {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+
+
+}
+
+.userText span {
+    padding: 10px;
+    border-radius: 16px 0px 16px 16px;
+    margin-right: 12px;
+    background-color:rgb(9, 8, 8);
+
+}
+
+.botText {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    box-shadow: 8px 16px 30px -10px black;
+    display: inline-block;
+
+}
+
+.botText span {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 16px 16px 16px;
+    border: black 2px solid;
+    margin-left: 12px;
+
+
+}
+
